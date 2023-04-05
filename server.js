@@ -41,13 +41,34 @@
 
 
 
-var a;
-var b=56789;
-console.log(a && b);
-console.log(a || b);
+// var a;
+// var b=56789;
+// console.log(a && b);
+// console.log(a || b);
 
 
-var x=234;
-var y;
-console.log(x && y);
-console.log(x || y);
+// var x=234;
+// var y;
+// console.log(x && y);
+// console.log(x || y);
+
+
+var userAge =90;
+
+switch(true){
+    case (userAge > 18 && userAge < 80):
+        console.log("DL Issued");
+        break;
+    case (userAge > 80):
+        console.log("Overage");
+        break;
+    case (userAge == 18):
+        console.log("LL Issued");
+        break;
+    case (userAge < 18):
+        console.log("Underage");
+        break;
+    default:
+        console.log();
+        break;
+}
