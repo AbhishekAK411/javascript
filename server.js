@@ -172,45 +172,98 @@
 // }
 
 
-var number=234;
-if(number%2==0){
-    console.log("even")
-}
-else{
-    console.log("odd");
-}
+// var number=234;
+// if(number%2==0){
+//     console.log("even")
+// }
+// else{
+//     console.log("odd");
+// }
+// var number = 234;
+// flag=true;
+// switch(flag){
+//     case (number%2==0):
+//         console.log("even");
+//         break;
+//     case (number%2!=0):
+//         console.log("odd");
+//         break;
+// }
 
 
 
-var num1=5;
-var num2=10;
 
-if(num1>num2){
-    console.log("num1 is greater");
-}
-else{
-    console.log("num2 is greater");
-}
-
-
-var num1=15;
-var num2=20;
-var num3=40;
-
-if(num1>=num2 && num1>=num3){
-    console.log("num1 is greater");
-}else if(num2>=num1 && num2 >=num3){
-    console.log("num2 is greater");
-}else if(num3>=num1 && num3>=num2){
-    console.log("num3 is greater");
-}
+// var num1=5;
+// var num2=10;
+// flag =true;
+// if(num1>num2){
+//     console.log("num1 is greater");
+// }
+// else{
+//     console.log("num2 is greater");
+// }
 
 
-var number1=10;
+// switch(flag){
+//     case (num1>num2):
+//         console.log("num1 is greater");
+//         break;
+//     case (num1<num2):
+//         console.log("num2 is greater");
+// }
 
-if(number1>=5 && number1<=25){
-    console.log("Number is between 5 and 25");
-}
-else{
-    console.log("Number is not between the range");
-}
+
+// var num1=15;
+// var num2=20;
+// var num3=40;
+
+// if(num1>=num2 && num1>=num3){
+//     console.log("num1 is greater");
+// }else if(num2>=num1 && num2 >=num3){
+//     console.log("num2 is greater");
+// }else if(num3>=num1 && num3>=num2){
+//     console.log("num3 is greater");
+// }
+
+
+// flag=true;
+
+// switch(flag){
+//     case (num1>=num2 && num1>=num3):
+//         console.log("num1 is greater");
+//         break;
+//     case (num2>=num1 && num2>=num3):
+//         console.log("num2 is greater");
+//         break;
+//     case (num3>=num1 && num3>=num2):
+//         console.log("num3 is greater");
+//         break;
+// }
+
+
+
+
+
+// var number1=10;
+
+// if(number1>=5 && number1<=25){
+//     console.log("Number is between 5 and 25");
+// }
+// else{
+//     console.log("Number is not between the range");
+// }
+
+
+// flag=true;
+
+// switch(flag){
+//     case (number1>=5 && number1<=25):
+//         console.log("Number is between 5 and 25");
+//         break;
+//     default:
+//         console.log("number is not between the range");
+//         break;
+// }
+
+
+
