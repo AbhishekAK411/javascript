@@ -267,3 +267,110 @@
 
 
 
+// Looping Statements
+// for
+// for in
+// for of
+// while
+// do while
+
+
+// console.log("outside function");
+
+// function add(){
+//     var a=10;
+//     var b=20;
+//     console.log(a+b);
+// }
+
+// add();
+
+// sub();
+
+// function sub(){
+//     var a=10;
+//     var b=20;
+//     console.log(b-a);
+// }
+
+
+// var num1= 25;
+// var num2= 24;
+
+// function greater(x,y){
+//     if(x>y){
+//         return x + " is greater than " + y;
+//     }
+//     else{
+//         return y + " is greater than " + x;
+//     }
+// }
+
+// console.log(greater(num1,num2));
+
+var num1=25;
+var num2=5;
+var num3=10;
+
+
+function oddEven(a){
+    if(a%2==0){
+        return "Even";
+    }
+    else{
+        return "Odd";
+    }
+}
+
+var ans = oddEven(num1);
+console.log("number is " +ans);
+
+
+
+
+
+
+function largeNum(a,b){
+    if(a>b){
+        return a;
+    }
+    else{
+        return b;
+    }
+}
+
+var res1=largeNum(num2,num3);
+console.log(res1 + " is the larger number");
+
+
+
+
+
+function largeThree(a,b,c){
+    if(a>=b && a>=c){
+        return a;
+    }
+    else if(b>=a && b>=c){
+        return b;
+    }
+    else if(c>=a && c>=b){
+        return c;
+    }
+}
+
+ var res2 = largeThree(num1,num2,num3);
+ console.log(res2+ " is the largest number among the three numbers");
+
+
+
+ function betRange(a){
+    if(a>=5 && a<=25){
+        return a + " is in range";
+    }
+    else{
+        return a + " not in range";
+    }
+ }
+
+ var res3 = betRange(num3);
+ console.log(res3);
