@@ -308,69 +308,156 @@
 
 // console.log(greater(num1,num2));
 
-var num1=25;
-var num2=5;
-var num3=10;
+// var num1=25;
+// var num2=5;
+// var num3=10;
 
 
-function oddEven(a){
-    if(a%2==0){
-        return "Even";
-    }
-    else{
-        return "Odd";
-    }
-}
+// function oddEven(a){
+//     if(a%2==0){
+//         return "Even";
+//     }
+//     else{
+//         return "Odd";
+//     }
+// }
 
-var ans = oddEven(num1);
-console.log("number is " +ans);
-
-
-
-
-
-
-function largeNum(a,b){
-    if(a>b){
-        return a;
-    }
-    else{
-        return b;
-    }
-}
-
-var res1=largeNum(num2,num3);
-console.log(res1 + " is the larger number");
+// var ans = oddEven(num1);
+// console.log("number is " +ans);
 
 
 
 
 
-function largeThree(a,b,c){
-    if(a>=b && a>=c){
-        return a;
-    }
-    else if(b>=a && b>=c){
-        return b;
-    }
-    else if(c>=a && c>=b){
-        return c;
-    }
-}
 
- var res2 = largeThree(num1,num2,num3);
- console.log(res2+ " is the largest number among the three numbers");
+// function largeNum(a,b){
+//     if(a>b){
+//         return a;
+//     }
+//     else{
+//         return b;
+//     }
+// }
+
+// var res1=largeNum(num2,num3);
+// console.log(res1 + " is the larger number");
 
 
 
- function betRange(a){
-    if(a>=5 && a<=25){
-        return a + " is in range";
-    }
-    else{
-        return a + " not in range";
-    }
- }
 
- var res3 = betRange(num3);
- console.log(res3);
+
+// function largeThree(a,b,c){
+//     if(a>=b && a>=c){
+//         return a;
+//     }
+//     else if(b>=a && b>=c){
+//         return b;
+//     }
+//     else if(c>=a && c>=b){
+//         return c;
+//     }
+// }
+
+//  var res2 = largeThree(num1,num2,num3);
+//  console.log(res2+ " is the largest number among the three numbers");
+
+
+
+//  function betRange(a){
+//     if(a>=5 && a<=25){
+//         return a + " is in range";
+//     }
+//     else{
+//         return a + " not in range";
+//     }
+//  }
+
+//  var res3 = betRange(num3);
+//  console.log(res3);
+
+
+// var rangeStart=150;
+// var rangeEnd=160;
+
+// for(i=rangeStart;i<=rangeEnd;i++){
+//     console.log(i);
+// }
+
+
+// function funct(a,b){
+//     for(i=a;i<b+1;i++){
+//         console.log(i);
+//     }
+// }
+
+// funct(rangeStart,rangeEnd);
+
+// iteration 1-> a=rangeStart value ; checks a<b+1, i.e rangeStart < rangeEnd+1 => True => Code => i++
+// iteration 2-> a=rangeStart value+1 ; checks a<b+1, i.e rangeStart+1 < rangeEnd+1 => True => Code => i++
+// iteration 9-> a=rangeStart value+9 ; checks a<b+1, i.e rangeStart+9 < rangeEnd+1 => False => exit from loop
+
+// var x=10,y,z;
+
+// y=x++;
+// z=x++;
+
+// console.log(z);
+
+
+var rangeStart=1;
+var rangeEnd=14;
+
+// function rangeEven(a,b){
+//     for(i=a;i<=b;i++){
+//         if(i%2==0){
+//             console.log(i);
+//         }
+        
+            
+//     }
+// }
+
+// rangeEven(rangeStart,rangeEnd);
+
+// function count(a,b){
+//     let count1=0;
+//     for(i=a;i<=b;i++){
+//         count1++;
+//     }
+//     console.log(count1);
+// }
+
+// count(rangeStart,rangeEnd);
+
+
+// function evenodd(a,b){
+//     var countEven=0;
+//     var countOdd=0;
+
+//     for(i=a;i<=b;i++){
+//         if(i%2==0){
+//             countEven++;
+//         }
+//         else{
+//             countOdd++;
+//         }
+//     }
+
+//     return countEven,countOdd;
+
+// }
+
+// var a=evenodd(rangeStart,rangeEnd);
+// console.log(a);
+
+
+// var a = [1,2,3,4,5];
+
+// let length = a.length;
+
+// console.log(length);
+
+
+
+
+
