@@ -127,22 +127,23 @@
 // 7. reads a set of integers and prints the sum of even and odd numbers
 
 
-var array = [1,2,3,4,5,6,7,8,9,10,12];
+// var array = [1,2,3,4,5,6,7,8,9,10,12];
 
-var evensum=0;
-var oddsum=0;
+// var evensum=0;
+// var oddsum=0;
 
-for(i=0;i<=array.length;i++){
-    if(array[i]%2 == 0){
-        evensum+=array[i];
-    }
-    else if(array[i]%2 != 0){
-        oddsum+=array[i];
-    }
-}
+// for(i=0;i<=array.length;i++){
+//     if(array[i]%2 == 0){
+//         evensum+=array[i];
+//     }
+//     else if(array[i]%2 != 0){
+//         oddsum+=array[i];
+//     }
+// }
 
-console.log(evensum);
-console.log(oddsum);
+// console.log(evensum);
+// console.log(oddsum);
 
 
-console.log(array.length);
+// console.log(array.length);
+
