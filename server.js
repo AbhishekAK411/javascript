@@ -475,31 +475,31 @@ var rangeEnd=14;
 // console.log(l2);
 
 
-var studentList = ["kunal", "anu" , "poonam" , "krishnan" , "abhi" , "snehal"];
+// var studentList = ["kunal", "anu" , "poonam" , "krishnan" , "abhi" , "snehal"];
 
-for(var i=0;i<studentList.length;i++){
-    if(studentList[i]=="swaraj"){
-        console.log("Kunal is in our data");
-    }
-}
+// for(var i=0;i<studentList.length;i++){
+//     if(studentList[i]=="swaraj"){
+//         console.log("Kunal is in our data");
+//     }
+// }
 
-var flagforswaraj = false;
+// var flagforswaraj = false;
 
-for(var i=0;i<studentList.length;i++){
-    if(studentList[i]=="swaraj"){
-        flagforswaraj=true;
-        console.log("Swaraj is in our data");
-    }
-}
+// for(var i=0;i<studentList.length;i++){
+//     if(studentList[i]=="swaraj"){
+//         flagforswaraj=true;
+//         console.log("Swaraj is in our data");
+//     }
+// }
 
-if(flagforswaraj==false){
-    console.log("Swaraj is not in our data");
-}
+// if(flagforswaraj==false){
+//     console.log("Swaraj is not in our data");
+// }
 
-for(var i=0;i<studentList.length;i++){
-    if(studentList[i] == "swaraj" || studentList[i] == "kunal"){
-        console.log("Swaraj or kunal is in our data");
-    }
-}
+// for(var i=0;i<studentList.length;i++){
+//     if(studentList[i] == "swaraj" || studentList[i] == "kunal"){
+//         console.log("Swaraj or kunal is in our data");
+//     }
+// }
 
 
