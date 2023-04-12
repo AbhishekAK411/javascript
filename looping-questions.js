@@ -220,11 +220,11 @@
 
 // 12. enter range, at the end, print largest and smallest number in the range.
 
-var a = [1,2,3,10,20,30,100,-10,-55];
+// var a = [1,2,3,10,20,30,100,-10,-55];
 
-function largesmall(num){
-    
-}
+// function largesmall(num){
+
+// }
 
 
 // 13. armstrong number

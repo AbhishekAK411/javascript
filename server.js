@@ -458,6 +458,48 @@ var rangeEnd=14;
 // console.log(length);
 
 
+// Array
 
+// var l1 = [1, 2, 3];
+// var l2 = new Array(6);
+
+// console.log(l2.length);
+
+// l2 = [1,2,3,4,5,6];
+
+// l2.length = 3;
+
+// console.log(l2);
+
+// l2.length = 6;
+// console.log(l2);
+
+
+var studentList = ["kunal", "anu" , "poonam" , "krishnan" , "abhi" , "snehal"];
+
+for(var i=0;i<studentList.length;i++){
+    if(studentList[i]=="swaraj"){
+        console.log("Kunal is in our data");
+    }
+}
+
+var flagforswaraj = false;
+
+for(var i=0;i<studentList.length;i++){
+    if(studentList[i]=="swaraj"){
+        flagforswaraj=true;
+        console.log("Swaraj is in our data");
+    }
+}
+
+if(flagforswaraj==false){
+    console.log("Swaraj is not in our data");
+}
+
+for(var i=0;i<studentList.length;i++){
+    if(studentList[i] == "swaraj" || studentList[i] == "kunal"){
+        console.log("Swaraj or kunal is in our data");
+    }
+}
 
 
