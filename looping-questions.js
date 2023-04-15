@@ -268,3 +268,16 @@
 //   sign = -sign;
 // }
 // console.log(sum);
+
+
+var a = [121,222,341,41241,5312321,6312,237,8,20,11];
+
+min=a[0];
+
+for(i=0;i<a.length;i++){
+    if(a[i]<min){
+        min=a[i];
+    }
+}
+
+console.log(min);
