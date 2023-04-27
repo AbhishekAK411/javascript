@@ -26,9 +26,9 @@
 
 // Q1. Two Sum.
 // var num = [5,9,2,7,1,8,3,6,4,233];
-// var target=238;
+// var target=8;
 
-// var flag = true;
+// var flag;
 
 // for(i=0;i<num.length;i++){
 //     for(j=num.length-1;j>i;j--){
@@ -36,6 +36,8 @@
 //             flag = true;
 //             console.log(num[i],num[j]);
 //             break;
+//         } else {
+//             flag = false;
 //         }
 //     }
 // }
@@ -110,31 +112,130 @@
 
 
 // Proper Solution https://leetcode.com/problems/plus-one/
-var array = [4,3,2,1];
-var str = "";
-var final = [];
-var ans, ans1=[];
+// var array = [9];
+// var str="";
+// var final = [];
+// var ans, ans1=[];
 
-for(var i=0;i<array.length;i++){
-    str += array[i].toString();
-}
+// for(var i=0;i<array.length;i++){
+//     str += array[i].toString();
+// }
 
-var num = parseInt(str);
-num = num + 1;
+// var num = parseInt(str);
+// num =num + 1;
 
-var numStr = num.toString();
+// var numStr = num.toString();
 
-for(i=0;i<numStr.length;i++){
-    final.push(numStr[i]);
-}
-
-for(i=0;i<final.length;i++){
-    ans = parseInt(final[i]);
-    ans1.push(ans);
-}
-
-console.log(ans1);
+// for(i=0;i<numStr.length;i++){
+//     final.push(numStr[i]);
+// }
 
 
+// for(i=0;i<final.length;i++){
+//     ans = parseInt(final[i]);
+//     ans1.push(ans);
+// }
+
+// console.log(ans1);
+
+
+
+// Q. Contains Duplicate 2 https://leetcode.com/problems/contains-duplicate-ii/
+// var arr = [1,0,1,1];
+// var k = 2;
+// var start,end, n;
+// n= arr.length;
+// start=0;
+// end=n-1;
+// var flag;
+
+// for(i=start;i<=end;i++){
+//     for(j=end;j>=start;j--){
+//         if(arr[i]==arr[j] && (i-j<=k || j-i <=k)){
+//             flag = true;
+//         } else {
+//             flag = false;
+//         }
+        
+//     }
+// }
+
+// if(flag){
+//     console.log("True");
+// } else {
+//     console.log("False");
+// }
+
+
+// Q. pascal's triangle
+// var n = 4;
+// function pascalTri(n){
+//     var t = [];
+//     for(i=0;i<n;i++){
+//         t[i] = [];
+//         for(j=0;j<=i;j++){
+//             if(j==0 || j==i){
+//                 t[i][j] = 1;
+//             } else {
+//                 t[i][j] = t[i-1][j-1] + t[i-1][j];
+//             }
+//         }
+//     }
+//     return t[n-1];
+// }
+
+// var ans = pascalTri(n);
+// console.log(ans);
+
+
+
+// Q. Pascal's triangle 2
+
+// var n = 4;
+// function pascalTri(n){
+//     var t = [];
+//     for(var i=0;i<n;i++){
+//         t[i] = [];
+//         for(j=0;j<=i;j++){
+//             if(j==0 || j==i){
+//                 t[i][j]=1;
+//             } else {
+//                 t[i][j] = t[i-1][j-1] + t[i-1][j];
+//             }
+//         }
+//     }
+//     return t[n-1];
+// }
+
+// var final = pascalTri(n);
+// console.log(final);
+
+
+// Q. Best time to buy and sell stock.
+// var stock = [7,1,5,3,6,4];
+
+// function maxProf(p) {
+//     let minPrice = p[0];
+//     let maxProfit = 0;
+  
+//     for (let i = 1; i < p.length; i++) {
+//       if (p[i] < minPrice) {
+//         minPrice = p[i];
+//       } else {
+//         var currentProfit = p[i] - minPrice;
+//         if (currentProfit > maxProfit) {
+//           maxProfit = currentProfit;
+//         }
+//       }
+//     }
+  
+//     return maxProfit;
+//   }
+
+// var ans = maxProf(stock);
+// console.log(ans);
+
+
+//Q. 
 
 
