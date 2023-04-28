@@ -210,30 +210,30 @@
 // }
 
 
-var array = ['Mon','Tue','Wed','Thurs','Fri','Sat','Sun'];
-var num = 6;
-switch(num){
-    case 1:
-        console.log(array[0]);
-        break;
-    case 2:
-        console.log(array[1]);
-        break;
-    case 3:
-        console.log(array[2]);
-        break;
-    case 4:
-        console.log(array[3]);
-        break;
-    case 5:
-        console.log(array[4]);
-        break;
-    case 6:
-        console.log(array[5]);
-        break;
-    case 7:
-        console.log(array[6]);
-        break;
-    default:
-        console.log("Invalid Input");
-}
+// var array = ['Mon','Tue','Wed','Thurs','Fri','Sat','Sun'];
+// var num = 6;
+// switch(num){
+//     case 1:
+//         console.log(array[0]);
+//         break;
+//     case 2:
+//         console.log(array[1]);
+//         break;
+//     case 3:
+//         console.log(array[2]);
+//         break;
+//     case 4:
+//         console.log(array[3]);
+//         break;
+//     case 5:
+//         console.log(array[4]);
+//         break;
+//     case 6:
+//         console.log(array[5]);
+//         break;
+//     case 7:
+//         console.log(array[6]);
+//         break;
+//     default:
+//         console.log("Invalid Input");
+// }
