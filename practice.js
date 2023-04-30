@@ -18,7 +18,7 @@
 //     }
 //     return [...QuickSort(left), pivot, ...QuickSort(right)];
 
-    
+
 // }
 // console.log(QuickSort(array));
 
@@ -156,7 +156,7 @@
 //         } else {
 //             flag = false;
 //         }
-        
+
 //     }
 // }
 
@@ -181,7 +181,7 @@
 //             }
 //         }
 //     }
-//     return t[n-1];
+//     return t;
 // }
 
 // var ans = pascalTri(n);
@@ -217,7 +217,7 @@
 // function maxProf(p) {
 //     let minPrice = p[0];
 //     let maxProfit = 0;
-  
+
 //     for (let i = 1; i < p.length; i++) {
 //       if (p[i] < minPrice) {
 //         minPrice = p[i];
@@ -228,7 +228,7 @@
 //         }
 //       }
 //     }
-  
+
 //     return maxProfit;
 //   }
 
@@ -236,6 +236,75 @@
 // console.log(ans);
 
 
-//Q. 
+// Q. single number
+
+// var array = [2,2,1];
+// var result = 0;
+// for(var i=0;i<array.length;i++){
+//     result ^= array[i];
+// }
+// console.log(result);
+
+
+
+
+// Q. Majority element
+
+var array = [2, 2, 1, 1, 1, 2, 2];
+// var obj = {};
+
+// for(var i=0;i<array.length;i++){
+//         if(obj[array[i]]){
+//             obj[array[i]] += 1;
+//         } else {
+//             obj[array[i]] = 1;
+//         }
+// }
+
+// for(var value in obj){
+//     if(obj[value]){
+//         console.log(value);
+//     }
+// }
+
+// var array = [2,2,1,1,1,2,2];
+// var result = 0;
+
+// for(var i=0;i<array.length;i++){
+//     result ^= array[i];
+// }
+
+// console.log(result);
+
+var array = [2,2,1,1,1,2,2];
+var result;
+var count = 0;
+
+
+for(var i=0;i<array.length;i++){
+    if(count===0){
+        result = array[i];
+        count=1;
+    } else {
+        if(array[i]===result){
+            count++;
+        } else {
+            count--;
+        }
+    }
+}
+console.log(result);
+
+
+
+
+
+
+
+
+
+
+
+
 
 

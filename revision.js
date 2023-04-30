@@ -237,3 +237,51 @@
 //     default:
 //         console.log("Invalid Input");
 // }
+
+
+// var a = [92,8,7,654,5,4,3,2,1];
+// len = a.length;
+
+// for(var i=0;i<len;i++){
+//     for(j=0;j<len-1;j++){
+//         if(a[j]>a[j+1]){
+//             //swapping elements
+//             let temp = a[j];
+//             a[j] = a[j+1];
+//             a[j+1] = temp;
+//         }
+//     }
+// }
+// console.log(a);
+
+
+
+
+// var array = ["abhishek", "vru", "krish"];
+// // var len = string.length;
+// // var rev_string= '';
+
+// // for(var i=len-1;i>=0;i--){
+// //     rev_string += string[i];
+// // }
+// // console.log(rev_string);
+
+// function rev_arr(arr){
+//     for(var i=0;i<arr.length;i++){
+//         var rev_str = '';
+//         for(var j=arr[i].length-1;j>=0;j--){
+//             rev_str += arr[i][j];
+//         }
+//         arr[i] = rev_str;
+//     }
+//     return arr;
+// }
+
+// var ans = rev_arr(array);
+// console.log(ans);
+
+
+
+
+
+
