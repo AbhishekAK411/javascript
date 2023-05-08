@@ -1,11 +1,8 @@
 // var array = [23, 6, 42, 8, 16, 37, 10];
-
-
 // function QuickSort(array) {
 //     if (array.length <= 1) {
 //         return array;
 //     }
-
 //     var pivot = array[0];
 //     var left = [];
 //     var right = [];
@@ -17,8 +14,6 @@
 //         }
 //     }
 //     return [...QuickSort(left), pivot, ...QuickSort(right)];
-
-
 // }
 // console.log(QuickSort(array));
 
@@ -250,7 +245,7 @@
 
 // Q. Majority element
 
-var array = [2, 2, 1, 1, 1, 2, 2];
+// var array = [2, 2, 1, 1, 1, 2, 2];
 // var obj = {};
 
 // for(var i=0;i<array.length;i++){
@@ -276,24 +271,87 @@ var array = [2, 2, 1, 1, 1, 2, 2];
 
 // console.log(result);
 
-var array = [2,2,1,1,1,2,2];
-var result;
-var count = 0;
+// var array = [2,2,1,1,1,2,2];
+// var result;
+// var count = 0;
 
 
-for(var i=0;i<array.length;i++){
-    if(count===0){
-        result = array[i];
-        count=1;
-    } else {
-        if(array[i]===result){
-            count++;
-        } else {
-            count--;
-        }
+// for(var i=0;i<array.length;i++){
+//     if(count===0){
+//         result = array[i];
+//         count=1;
+//     } else {
+//         if(array[i]===result){
+//             count++;
+//         } else {
+//             count--;
+//         }
+//     }
+// }
+// console.log(result);
+
+
+// var a = [1,2,3,4,4,5,5,5,5,6,7,8,9];
+
+// var uniq = [];
+// var object = {};
+
+
+// for(var i=0;i<a.length;i++){
+//     if(a[i] == a[i+1]){
+//         object[a[i]] = a[i];
+//     } else {
+//         uniq.push(a[i]);
+//     }
+// }
+
+// console.log(object);
+// var sum = 0;
+// for(var key in object){
+//     sum += object[key];
+// }
+// console.log(sum);
+
+
+
+// var string = "nayan"
+
+// function palindrome(str) {
+//     for (i = 0; i < Math.floor(str.length / 2); i++) //2
+//     {
+//         if (str[i] !== str[str.length - 1 - i]) {
+//             return false;
+//         }
+
+//     }
+//     return true;
+// }
+// console.log(palindrome(string));
+
+
+// var num1 = 10;
+// var num2 = 20;
+
+// function sumTwoNums(a,b){
+//     var sum;
+//     sum = a+b;
+//     return sum;
+// }
+
+// console.log(sumTwoNums(num1,num2));
+
+var x = 123;
+var y = 1223;
+var z = 523;
+function sumRest(...numbers){
+    var total = 0;
+    for(i=0;i<numbers.length;i++){
+        total += numbers[i];
     }
+    return total;
 }
-console.log(result);
+
+console.log(sumRest(1,2,3,4,5,6,x,y,z));
 
 
 
