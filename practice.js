@@ -340,23 +340,123 @@
 
 // console.log(sumTwoNums(num1,num2));
 
-var x = 123;
-var y = 1223;
-var z = 523;
-function sumRest(...numbers){
-    var total = 0;
-    for(i=0;i<numbers.length;i++){
-        total += numbers[i];
+// var x = 123;
+// var y = 1223;
+// var z = 523;
+// function sumRest(...numbers){
+//     var total = 0;
+//     for(i=0;i<numbers.length;i++){
+//         total += numbers[i];
+//     }
+//     return total;
+// }
+
+// console.log(sumRest(1,2,3,4,5,6,x,y,z));
+
+
+//pascal's triangle
+
+// var n = 4;
+
+// function pascalTriangle(n){
+//     var triangle = [];
+//     for(var i=0;i<n;i++){
+//         triangle[i] = [];
+//         for(j=0;j<=i;j++){
+//             if(j==0 || j==i){
+//                 triangle[i][j] = 1;
+//             } else {
+//                 triangle[i][j] = triangle[i-1][j-1] + triangle[i-1][j];
+//             }
+//         }
+//     }
+//     console.log(triangle);
+//     return triangle[n-1];
+// }
+
+// var ans = pascalTriangle(n);
+// console.log(ans);
+
+
+
+// single number
+
+// function singleNumber(...nums){
+//     var result;
+//     for(var i=0;i<nums.length;i++){
+//         result ^= nums[i];
+//     }
+//     return result;
+// }
+
+// var ans = singleNumber(4,1,2,1,2);
+// console.log(ans);
+
+
+//missing number
+
+// function missingNumber(...n){
+
+//     var mainSum = 0;
+//     var subSum = 0;
+//     for(var i=0;i<n.length;i++){
+//         mainSum += n[i];
+//     }
+
+//     for(var i=0;i<=n.length;i++){
+//         subSum += i;
+//     }
+
+//     var missingNumber = subSum - mainSum;
+
+//     return missingNumber;
+// }
+
+// var ans = missingNumber(9,6,4,2,3,5,7,0,1);
+// console.log(ans);
+
+
+//Move zeroes
+// function moveZeroes(...n){
+//     var nonZeroIndex = 0;
+//     for(var i=0;i<n.length;i++){
+//         if(n[i]!== 0){
+//             n[nonZeroIndex] = n[i];
+//             nonZeroIndex++;
+//         }
+//     }
+
+//     for(var i=nonZeroIndex;i<n.length;i++){
+//         n[i] = 0;
+//     }
+
+//     return n;
+// }
+
+// var ans = moveZeroes(0,1,0,3,12);
+// console.log(ans);
+
+
+//Range sum query
+var nums=[-2,0,3,-5,2,-1];
+
+var numArray = function(nums){
+    this.nums = nums;
+};
+
+
+
+numArray.prototype.sumRange = function(left,right){
+    let sum=0;
+
+    for(let i=left;i<=right;i++){
+        sum+=this.nums[i];
     }
-    return total;
-}
+    return sum;
+};
 
-console.log(sumRest(1,2,3,4,5,6,x,y,z));
-
-
-
-
-
+var obj = new numArray(nums);
+console.log(obj);
 
 
 
