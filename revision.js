@@ -282,6 +282,23 @@
 
 
 
+// var str = "tower";
+
+// for(var i=str.length-1;i>=0;i--){
+//     str[str.length-i] = str[i];
+// }
+
+// console.log(str);
+
+
+// a = [1,2,3,4,5,6,7,8,9,10];
+// var sum=0;
+// for(var i=0;i<a.length;i++){
+//     sum += a[i];
+//     a[i] = sum;
+// }
+
+// console.log(a);
 
 
 

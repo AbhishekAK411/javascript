@@ -291,7 +291,7 @@
 // console.log(result);
 
 
-// var a = [1,2,3,4,4,5,5,5,5,6,7,8,9];
+// var a = [1,1,1,2,2,3,3,3,3,3,3,4,4,5,5,5,5,6,6,7,7,7,8,8,8,8,8,9,9,9,9,9,9,9,9,9];
 
 // var uniq = [];
 // var object = {};
@@ -311,6 +311,7 @@
 //     sum += object[key];
 // }
 // console.log(sum);
+
 
 
 
@@ -412,7 +413,7 @@
 //     return missingNumber;
 // }
 
-// var ans = missingNumber(9,6,4,2,3,5,7,0,1);
+var ans = missingNumber(9,6,4,2,3,5,7,0,1);
 // console.log(ans);
 
 
@@ -437,26 +438,27 @@
 // console.log(ans);
 
 
+
 //Range sum query
-var nums=[-2,0,3,-5,2,-1];
+// var nums=[-2,0,3,-5,2,-1];
 
-var numArray = function(nums){
-    this.nums = nums;
-};
+// var numArray = function(nums){
+//     this.nums = nums;
+// };
 
 
 
-numArray.prototype.sumRange = function(left,right){
-    let sum=0;
+// numArray.prototype.sumRange = function(left,right){
+//     let sum=0;
 
-    for(let i=left;i<=right;i++){
-        sum+=this.nums[i];
-    }
-    return sum;
-};
+//     for(let i=left;i<=right;i++){
+//         sum+=this.nums[i];
+//     }
+//     return sum;
+// };
 
-var obj = new numArray(nums);
-console.log(obj);
+// var obj = new numArray(nums);
+// console.log(obj);
 
 
 
