@@ -413,7 +413,7 @@
 //     return missingNumber;
 // }
 
-var ans = missingNumber(9,6,4,2,3,5,7,0,1);
+// var ans = missingNumber(9,6,4,2,3,5,7,0,1);
 // console.log(ans);
 
 
@@ -461,6 +461,28 @@ var ans = missingNumber(9,6,4,2,3,5,7,0,1);
 // console.log(obj);
 
 
+let obj = {
+    $ : "John",
+    "p2" : "Doe",
+    "p3" : "User"
+}
+
+//Method 1
+// const array = Object.values(obj);
+// let answer = "";
+// for(let i=0;i<array.length;i++){
+//     answer+= array[i];
+// }
+// console.log(answer);
+
+
+//Method 2
+// let method2Answer = ""
+// for(let key in obj){
+//     method2Answer += obj[key];
+// }
+
+// console.log(method2Answer);
 
 
 
