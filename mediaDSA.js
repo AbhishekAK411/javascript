@@ -26,3 +26,32 @@
 // }
 
 // console.log(count2Step+count1Step);
+let N = 5;
+let songs = [1,1,2,2,4];
+
+let singerCount = {};
+for(let i=0;i<songs.length;i++){
+    const singer = songs[i];
+    if(singerCount[singer]){
+        singerCount[singer]++;
+    } else {
+        singerCount[singer] = 1;
+    }
+}
+
+let maxFrequency = 0;
+for(let singer in singerCount){
+    if(singerCount[singer] > maxFrequency){
+        maxFrequency = singerCount[singer];
+    }
+}
+console.log(maxFrequency);
+
+let favouriteCount = 0;
+for(let singer in singerCount){
+    if(singerCount[singer]===maxFrequency){
+        favouriteCount++;
+    }
+}
+
+console.log(favouriteCount);
