@@ -108,7 +108,7 @@
 
 
 
-// // 6. reverse of a number
+// 6. reverse of a number
 
 // var number = 12345;
 // let rev = 0;
@@ -245,17 +245,17 @@
 
 // 14. fibonacci Series 20 range
 
-// let num1 = 0;
-// let num2 = 1;
-// let nextNum;
-// console.log(num1);
-// console.log(num2);
-// for (let i = 3; i <= 20; i++) {
-//   nextNum = num1 + num2;
-//   console.log(nextNum);
-//   num1 = num2;
-//   num2 = nextNum;
-// }
+let num1 = 0;
+let num2 = 1;
+let nextNum;
+console.log(num1);
+console.log(num2);
+for (let i = 3; i <= 20; i++) {
+  nextNum = num1 + num2;
+  console.log(nextNum);
+  num1 = num2;
+  num2 = nextNum;
+}
 
 
 // 15. sum of the series
