@@ -490,3 +490,21 @@ let obj = {
 
 
 
+function printNonPrimeOddNumbers() {
+    for (let i = 3; i <= 100; i += 2) {
+      let isNonPrime = false;
+  
+      for (let j = 2; j <= Math.sqrt(i); j++) {
+        if (i % j === 0) {
+          isNonPrime = true;
+          break;
+        }
+      }
+  
+      if (isNonPrime) {
+        console.log(i);
+      }
+    }
+  }
+  
+  printNonPrimeOddNumbers();
